@@ -1,0 +1,264 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  /* position: fixed; */
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-top: 45px;
+  padding-right: 8%;
+}
+.logo{
+  color:aquamarine;
+  font-size: 35px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+span{
+  color: brown; 
+}
+nav ul li{
+  list-style-type: none;
+  display:inline-block;
+  padding: 10px 25px ;
+}
+nav ul li a{
+color: blueviolet; 
+text-decoration: none;
+font-weight: bold;
+text-transform:capitalize;
+}
+nav ul li a:hover{
+  color:lightcoral;
+}
+.container1{
+  background-size:100%;
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.content{
+position: absolute;
+top: 50%;
+left: 8%;
+transform:translateY(-50%) ;
+}
+.cont{
+ /* margin:50px 50px 0px 40px; */
+ 
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+}
+h1{
+  color: blue;
+ font-size: 75px;
+ margin: 20px 20px 20px;
+}
+h3{
+  color: blue;
+ font-size: 25px;
+ margin: 0px;
+}
+h4{
+  color: rgb(117, 117, 135);
+ font-size: 25px;
+ letter-spacing: 2px;
+ 
+}
+ .form1 form{
+  display: inline-block;
+  width: 100%;
+  padding: 15px 130px 35px 5px;
+  position: relative;
+}
+.form1 form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding:15px 130px 15px 15px ;
+  outline: none;
+  border-radius: 30px;
+}
+.form1 form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #f9004d;
+  color: wheat; 
+  top:17px;
+  right:132px;
+}
+.about{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+}
+.about img{
+  height: auto;
+  width: 430px;
+}
+.about1{
+  width: 550px;
+}
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about1 h2{
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about1 h5{
+  color: rgb(239, 236, 236);
+  initial-letter: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about1 p{
+  color:white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;  
+}
+button{
+  background-color: red;
+  color: wheat;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding:13px 30px;
+}
+button:hover{
+  background-color: transparent;
+  border:2px solid;
+  cursor: pointer;
+}
+
+.service{
+  background-color: #101010;
+  width: 100%;
+  padding:100px 0px;
+}
+.title h2{
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card{
+  padding: 20px 35px;
+  background-color: #191919;
+  height: 365px;
+  width:355px;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+h5{
+  color: white;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.para p{
+  color:#fcfc;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.card .button{
+  background-color: red;
+  color: wheat;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px; 
+  border-radius: 30px;
+}
+.card .button:hover{  
+  background-color: transparent;
+  border:2px solid;
+  cursor: pointer;
+}
+.contact{
+  width: 100%;
+  height:300px;
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact p{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.contact .btn{
+  background-color: red;
+  color: wheat;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px; 
+  border-radius: 30px;
+}
+.contact .btn:hover{
+  background-color: transparent;
+  border:2px solid;
+  cursor: pointer;
+}
+footer{
+  width: 100%;
+  position: relative;
+  height:400px;
+  background-color: #101010;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .social-media{
+  font-size: 30px;
+  color: wheat;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+footer .end{
+  font-size: 15px;
+  color: wheat;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 500px;
+}
+
+.p1{
+  color: white;
+  margin: 5px;
+}
